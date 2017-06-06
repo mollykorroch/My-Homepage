@@ -1,0 +1,53 @@
+h1{
+	font-family: Avenir; sans-serif;
+	color:gray;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	padding: 2% 2%;
+	letter-spacing: 5px
+}
+
+body {
+    background-color: cornsilk;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+h2{ 
+	text-align: center; 
+	font-family: Avenir; sans-serif;
+	color:gray;
+	font-weight: normal;
+	padding: 2% 2%;
+	letter-spacing: 1px;
+}
+
+li{
+	text-align: center; 
+	font-family: Avenir; sans-serif;
+	color:gray;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    overflow: scroll;
+}
+
+a{
+	font-family: Avenir; sans-serif;
+	color: crimson;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 2% 2%;
+	letter-spacing: 5px
+	display: block;
+	text-align: center;
+}
