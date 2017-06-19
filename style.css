@@ -1,5 +1,5 @@
 h1{
-	font-family: Avenir; sans-serif;
+	font-family: Avenir, arial, sans-serif;
 	color: gray;
 	text-align: center;
 	text-transform: uppercase;
@@ -9,7 +9,7 @@ h1{
 }
 
 body {
-    background-color: cornsilk;
+    background-color: #FFFFFF;
 }
 
 img{
@@ -20,7 +20,7 @@ img{
 
 h2{ 
 	text-align: center; 
-	font-family: Avenir; sans-serif;
+	font-family: Avenir, arial, sans-serif;
 	color: gray;
 	font-weight: normal;
 	padding: 2% 2%;
@@ -29,8 +29,8 @@ h2{
 
 li{
 	text-align: center; 
-	font-family: Avenir; sans-serif;
-	color:gray;
+	font-family: Avenir, arial, sans-serif;
+	color: gray;
 	font-weight: normal;
 	letter-spacing: 1px;
 }
@@ -42,7 +42,7 @@ div {
 }
 
 a{
-	font-family: Avenir; sans-serif;
+	font-family: Avenir, arial, sans-serif;
 	color: crimson;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -50,4 +50,25 @@ a{
 	letter-spacing: 5px
 	display: block;
 	text-align: center;
+}
+
+#slideshow {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.slide {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+button{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
