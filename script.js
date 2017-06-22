@@ -1,4 +1,39 @@
-$(document) .ready(function () {
+$(document).ready(function(){
+    var slides = $(".slide");
+    var slideIndex = 0;
+    var slide = slides[slideIndex];
+    slides.hide();
+    slides.first().show();
+    $(".next").click(function(){
+        $(slide).hide();
+        slideIndex++;
+        if (slideIndex > 6) {
+            slideIndex = 0;
+        }
+        slide = slides[slideIndex]
+        $(slide).show();
+
+    });
+    
+    $(".previous").click(function(){
+        $(slide).hide();
+        slideIndex--; 
+        if (slideIndex < 0) {
+            slideIndex = 6;
+      }
+
+      slide = slides[slideIndex];
+      $(slide).show();
+      
+    });
+});
+
+
+
+
+
+
+/*(document) .ready(function () {
 	$(“p”).click(function() {
 		$(this).hide();
 	});
@@ -22,18 +57,18 @@ var hideImages = function() {
 		$('#'+image_name.hide();
 	}
 
-}
-
 var currentSlide = function(image_index){
 	hideImages();
 	$('#'+images[image_index]).show;
 	current_image = image_index;
 }
 
-var plusSlides = function(arrow){
+var plusDivs = function(arrow){
 	hideImages();
 	var image_index = current_image + arrow;
 	$('#'+images[current_image + arrow]).show();
 	current_image = image_index;
 
 }
+
+}*/
